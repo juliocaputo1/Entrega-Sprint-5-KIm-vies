@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   api:
-    container_name: api
+    container_name: entrega_sprint_5
     build: .
     ports:
       - 3000:3000
@@ -11,8 +11,6 @@ services:
     depends_on:
       db:
         condition: service_healthy
-    volumes:
-      - .:/app
 
   db:
     container_name: db
@@ -27,5 +25,7 @@ services:
       timeout: 5s
       retries: 5
       start_period: 5s
+
+
    
 
