@@ -32,7 +32,7 @@ const userLoginService = async ({ email, password }: IUserLogin) => {
             id: id,
             isActive: isActive
         },
-        process.env.JWT_SECRET as string,
+        process.env.SECRET_KEY as string,
         { expiresIn: "1d" }
     )
 

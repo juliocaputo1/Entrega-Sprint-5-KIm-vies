@@ -8,7 +8,7 @@ const verifyAuthtoken = async (req: Request, res: Response, next: NextFunction) 
         return res.status(401).json({ message: "Token necessary" })
     }
     token = token.split(" ")[1]
-    jwt.verify(token as string, process.env.JWT_SECRET as string, (err: any, decoded: any) => {
+    jwt.verify(token as string, process.env.SECRET_KEY as string, (err: any, decoded: any) => {
         if (err) {
             return res.status(403).json({ message: "Invalid Token" })
         }

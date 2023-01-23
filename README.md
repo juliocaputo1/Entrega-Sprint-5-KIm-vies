@@ -1,4 +1,12 @@
-# S5-19 | 🏁 Entrega: KImóveis - TypeORM com Relacionamentos
+# S5-19 | 🏁 Entrega: KImóveis - Simulando uma Imobiliária 
+
+Esse projeto foi feito como entrega avaliativa no módulo 4 do curso da Kenzie Academy Brasil. Nele, é desenvolvida uma aplicação para simular o gerenciamento de uma imobiliária.
+
+No projeto foram utilizados Typescript e NodeJs utilizando o framework express. Os relacionamentos são trabalhados com o uso de TypeORM em um banco de dados POSTGRES. Outras bibliotecas e(ou) tecnologias utilizadas foram Docker, uuid, jsonwebtoken, pg, bcrypt
+
+Na aplicação são utilizados métodos POST, GET, PATCH E DELETE, cada um com uma rota específica para criação, leitura, atualização e deleção de usuários da plataforma da imobiliária, de endereços, propriedades e também de categorias de propriedades e agendamentos de visitas. Além disso, foi criada uma rota POST para login de usuário que retorna um token para o acesso do mesmo.
+
+# Inicialização do Projeto
 
 Para inciar este projeto, é necessário instalar as dependências, que serão utilizadas nos testes. Portanto utilize o comando abaixo para instalar tais dependências:
 
