@@ -6,11 +6,7 @@ No projeto foram utilizados Typescript e NodeJs utilizando o framework express. 
 
 Na aplicação são utilizados métodos POST, GET, PATCH E DELETE, cada um com uma rota específica para criação, leitura, atualização e deleção de usuários da plataforma da imobiliária, de endereços, propriedades e também de categorias de propriedades e agendamentos de visitas. Além disso, foi criada uma rota POST para login de usuário que retorna um token para o acesso do mesmo.
 
-
-
-
-
-
+**Inicialização do Projeto**
 Para inciar este projeto, é necessário instalar as dependências, que serão utilizadas nos testes. Portanto utilize o comando abaixo para instalar tais dependências:
 
 ````
