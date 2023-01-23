@@ -1,6 +1,6 @@
 # S5-19 | 🏁 Entrega: KImóveis - Simulando uma Imobiliária 
 
-Esse projeto foi feito como entrega avaliativa no módulo 4 do curso da Kenzie Academy Brasil. Nele, é desenvolvida uma aplicação para simular o gerenciamento de uma imobiliária.
+Esse projeto foi feito como entrega avaliativa no módulo 4 do curso de desenvolvedor full-stack da Kenzie Academy Brasil. Nele, é desenvolvida uma aplicação para simular o gerenciamento de uma imobiliária.
 
 No projeto foram utilizados Typescript e NodeJs utilizando o framework express. Os relacionamentos são trabalhados com o uso de TypeORM em um banco de dados POSTGRES. Outras bibliotecas e(ou) tecnologias utilizadas foram Docker, uuid, jsonwebtoken, pg, bcrypt
 
